@@ -1,0 +1,20 @@
+div#container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+    margin: 1.25rem;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100px;
+}
+.table tr {
+    border-bottom: 1px solid #444444;
+}
+
+.table tr:nth-child(even) {
+    background-color: #eaeaea;
+}
